@@ -1,0 +1,56 @@
+
+
+.left-align {
+  left: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.right-align {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.icon-margin {
+  margin-left: 10px;
+}
+
+input {
+  width: 100%;
+  text-align: center;
+}
+
+.post-container {
+  background-color: lightblue;
+  padding-top: 5px;
+  height: 10vh;
+  display: inline-block;
+}
+
+.insta-logo {
+  margin-left: 10px;
+  width: 50%;
+}
+
+.user-thumbnail {
+  height: 40%;
+  display: inline-block;
+  margin-left: 20px;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.super-span {
+  border: 2px solid red;
+}

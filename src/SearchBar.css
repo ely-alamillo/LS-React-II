@@ -24,8 +24,14 @@ input {
   text-align: center;
 }
 
-.container {
+.search-container {
   background-color: whitesmoke;
   padding-top: 15px;
   height: 10vh; 
 }
+
+.insta-logo {
+  margin-left: 10px;
+  width: 50%;
+}
+
