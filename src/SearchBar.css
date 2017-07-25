@@ -1,0 +1,31 @@
+.left-align {
+  left: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.centered {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+.right-align {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.icon-margin {
+  margin-left: 10px;
+}
+
+input {
+  width: 100%;
+  text-align: center;
+}
+
+.container {
+  background-color: whitesmoke;
+  padding-top: 15px;
+  height: 10vh; 
+}
