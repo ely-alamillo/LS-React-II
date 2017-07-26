@@ -29,6 +29,8 @@ input {
 .post-container {
   background-color: lightblue;
   padding-top: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
   height: 10vh;
   display: inline-block;
 }
@@ -53,4 +55,23 @@ input {
 
 .super-span {
   border: 2px solid red;
+}
+
+.comment-icons {
+  margin-left: 10px;
+}
+
+.comment-input {
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 0px;
+}
+
+.comment-button {
+  float: right;
+  margin-right: 0;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
