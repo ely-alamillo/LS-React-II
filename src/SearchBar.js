@@ -20,6 +20,7 @@ const SearchBar = (props) => {
           <i className="fa fa-user-o fa-2x icon-margin"></i>
         </Col>
       </Row>
+      <hr/>
     </Container>
   );
 };

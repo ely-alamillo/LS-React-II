@@ -17,9 +17,8 @@ class PostContainer extends Component {
   render () {
     // console.log();
     return (
-      <div> 
-      hello from postscontainer
-         <Posts data={this.state.comments}/> 
+      <div>
+         <Posts data={this.state.comments}/>
       </div>
     );
   }
