@@ -35,8 +35,11 @@ input {
 }
 
 .user-header {
-  background-color: lightblue;
   height: 80px;
+  border: 1px solid lightgrey;
+  z-index: -1;
+  position: relative;
+  top: 4px;
 }
 
 .insta-logo {
@@ -78,4 +81,9 @@ input {
   border: none;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.card-img-top {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
 }

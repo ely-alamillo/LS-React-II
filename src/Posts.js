@@ -5,6 +5,7 @@ import { Container, Row, Col, Card, CardImg, CardBlock,
   import CommentSection from './CommentSection'
 import './PostContainer.css';
 import moment from 'moment';
+import ModalExample from "./Pop-Up"
 
 const convertTime = (timestamp) => {
   let thisTime = moment(timestamp, "MMM D YYYY, h:mm:ss a").format();
@@ -65,7 +66,8 @@ const Posts = (props) => {
                     <Input  key={index + 1} className="comment-input" id="key" placeholder="Add a comment..." />
                   </Col>
                   <Col key={index + 1}sm="3">
-                    <Button key={index} className="comment-button">...</Button>
+                    <ModalExample key={index}/>
+                    {/* <Button key={index} className="comment-button">...</Button> */}
                   </Col>
                 </FormGroup>
               </Form>
