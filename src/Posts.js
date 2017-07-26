@@ -4,6 +4,13 @@ import { Container, Row, Col, Card, CardImg, CardBlock,
   CardTitle, CardSubtitle, Button, Form, FormGroup, Input } from 'reactstrap';
   import CommentSection from './CommentSection'
 import './PostContainer.css';
+import moment from 'moment';
+
+const convertTime = (timestamp) => {
+  let thisTime = moment(timestamp, "MMM D YYYY, h:mm:ss a").format();
+  const time = (moment(thisTime).fromNow())
+  return time;
+};
 
 const Posts = (props) => {
   // console.log('outside' + props.data);
@@ -47,7 +54,9 @@ const Posts = (props) => {
 
 
               <CardSubtitle key={index + 3}className="text-muted">
-              {element.timestamp}
+                {
+                convertTime(element.timestamp)
+                }
               </CardSubtitle>
               <hr key={index + 4} />
               <Form key={index + 5}>
